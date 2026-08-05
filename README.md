@@ -2,6 +2,8 @@
 
 > A high-performance React and TypeScript data grid that manages 100,000 records while mounting only the rows visible inside the scroll viewport.
 
+**Live demo:** [Open AxiomGrid](https://react-100k-virtualized-data-grid.vercel.app/)
+
 ## Project overview
 
 AxiomGrid is an in-memory workforce data grid built to demonstrate row virtualization at a 100,000-record scale. It generates a stable employee dataset, exposes typed and immutable CRUD operations, supports client-side search, and renders a small moving window of table rows instead of mounting the complete dataset in the DOM.
@@ -108,6 +110,8 @@ axiom-grid/
 
 ## Getting started
 
+Use the hosted application at [react-100k-virtualized-data-grid.vercel.app](https://react-100k-virtualized-data-grid.vercel.app/), or run it locally:
+
 ```bash
 git clone https://github.com/abdulwahabkhn/react-100k-virtualized-data-grid.git
 cd react-100k-virtualized-data-grid
@@ -193,6 +197,7 @@ Browser frame timings, memory usage, interaction latency, React Profiler results
 
 - GitHub: [@abdulwahabkhn](https://github.com/abdulwahabkhn)
 - Repository: [react-100k-virtualized-data-grid](https://github.com/abdulwahabkhn/react-100k-virtualized-data-grid)
+- Live demo: [react-100k-virtualized-data-grid.vercel.app](https://react-100k-virtualized-data-grid.vercel.app/)
 
 ## License
 
